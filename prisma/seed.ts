@@ -10,6 +10,9 @@ async function main() {
     await prisma.game.create({
         data: { name: "John Doe 2" },
     });
+    await prisma.game.create({
+        data: { name: "John Doe 3" },
+    });
 }
 
 main()
